@@ -28,3 +28,9 @@ while True:
 
 print(Almacen)
 print(Rn)
+
+Numero=open("Rn.txt","w+")
+for i in Rn: 
+    Numero.write(str(i))
+    Numero.write(",")
+Numero.close()
